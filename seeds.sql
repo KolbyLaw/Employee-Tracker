@@ -1,3 +1,5 @@
+-- I originally had shorthand value entries for all three tables, but ended up writing every entry out as I thought it was causing a syntax error.
+
 -- Department Table Seeds
 INSERT INTO department (name)
 VALUE ("Sales");

@@ -116,10 +116,10 @@ function addDepartment() {
     inquirer.prompt({
         type: "input",
         message: "Please enter the name of the department: ",
-        name: "deptName"
+        name: "departmentName"
         })
         .then(function(answer) {
-        connection.query("INSERT INTO department (name) VALUES (?)", [answer.deptName] , function(err, res) {
+        connection.query("INSERT INTO department (name) VALUES (?)", [answer.departmentName] , function(err, res) {
             if (err) throw err;
             console.table(res)
             startCommand()
@@ -139,16 +139,16 @@ function addRole() {
         {
           type: "input",
           message: "Please enter the salary for this role: ",
-          name: "salaryTotal"
+          name: "roleSalary"
         },
         {
           type: "input",
           message: "Please enter the Department ID: ",
-          name: "deptID"
+          name: "departmentID"
         }
         ])
         .then(function(answer) {
-        connection.query("INSERT INTO role (title, salary, department_id) VALUES (?, ?, ?)", [answer.roleName, answer.salaryTotal, answer.deptID], function(err, res) {
+        connection.query("INSERT INTO role (title, salary, department_id) VALUES (?, ?, ?)", [answer.roleName, answer.roleSalary, answer.departmentID], function(err, res) {
         if (err) throw err;
         console.table(res);
         startCommand();
