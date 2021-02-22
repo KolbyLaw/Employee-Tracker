@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "name": "Employee-Tracker",
+  "name": "employee-tracker",
   "description": "AS A business owner </br>\r I WANT to be able to view and manage the departments, roles, and employees in my company </br>\r SO THAT I can organize and plan my business </br></br>",
   "version": "1.0.0",
   "main": "server.js",
