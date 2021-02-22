@@ -1,4 +1,4 @@
--- Initial Database Setup
+-- Initial Database Clear/Setup
 DROP DATABASE IF EXISTS employee_database;
 CREATE DATABASE employee_database;
 USE employee_database;
