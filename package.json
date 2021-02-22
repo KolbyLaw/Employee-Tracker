@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.2.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "Employee-Tracker",
+  "description": "AS A business owner </br>\r I WANT to be able to view and manage the departments, roles, and employees in my company </br>\r SO THAT I can organize and plan my business </br></br>",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KolbyLaw/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KolbyLaw/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/KolbyLaw/Employee-Tracker#readme"
+}
